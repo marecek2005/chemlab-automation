@@ -1,0 +1,6 @@
+interface:
+  display_name: "Protokol"
+  short_description: "Laboratorní protokoly z návodů a naměřených dat"
+  default_prompt: "Použij $protokol a vytvoř český laboratorní protokol z přiloženého návodu a naměřených dat."
+policy:
+  allow_implicit_invocation: true
