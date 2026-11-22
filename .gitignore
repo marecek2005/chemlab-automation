@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Data & generated outputs
+*.csv
+*.nc
+*.joblib
+measurements_dmm.csv
+gloti_data/
+GLOTI_model.joblib
+GLOTI_prediction.json
+GLOTI_graph.png
+
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+._*
+Thumbs.db
